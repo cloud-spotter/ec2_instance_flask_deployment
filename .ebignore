@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+
+# Python
+*.pyc
+__pycache__
+.pytest_cache
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+cs-small-flask-env/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Local development settings
+*.local
+local_settings.py
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Large binary files or datasets
+*.zip
+*.tar.gz
+*.mp4
+large_dataset.csv
+
+# Sensitive information
+secrets.yml
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

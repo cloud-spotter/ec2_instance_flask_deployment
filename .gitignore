@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+cs-small-flask-env/
 
 # Spyder project settings
 .spyderproject
