@@ -1,0 +1,24 @@
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Apply the Montserrat font to all text elements */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Center the H1 element and apply some padding */
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+/* Contain the image size */
+img {
+    max-width: 90%; /* Ensures the image doesn't exceed 90% of the screen's width */
+    max-height: 85vh; /* Ensures the image doesn't exceed 85% of the viewport height */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
